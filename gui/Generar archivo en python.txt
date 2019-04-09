@@ -1,0 +1,7 @@
+Generating .py file from .ui
+
+!!!!!!!!! primero hay que ubicarse en la carpeta donde se encuentra el archivo .ui !!!!!!!!!!!!!!
+
+y despues ejecutar esto en cmd
+
+python -m PyQt5.uic.pyuic -x [FILENAME].ui -o [FILENAME].py
